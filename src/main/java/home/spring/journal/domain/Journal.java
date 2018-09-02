@@ -61,7 +61,7 @@ public class Journal {
 		this.summary = summary;
 	}
 
-	public String getCreatedAtShort() {
+	public String getCreatedAsShort() {
 		return format.format(created);
 	}
 
